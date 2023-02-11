@@ -9,6 +9,7 @@ Status do Projeto: ✔️ (Finalizado)
 A aplicação é um encriptador de palavras que substitui as vogais por letras aleatórias, e além de encriptar ela também realiza o processo inverso de desencriptar as palavras escritas.</em>>/p>
 
 Funcionalidades
+  
 ✔️ Encripta.
 
 ✔️ Desencripta.
