@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Decodificador</title>
+    <link rel="shortcut icon" href="../../assets/imageA.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="grid-header">
+            <img class="logo-alura" src="./assets/imageA.svg" alt="Logo da alura">
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="grid-layout">
+                <div class="container-text">
+                    <textarea type="text" class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+        
+                    <div class="info">
+                        <img src="assets/exclamation.svg" alt="ponto de esclamação">
+                        <h6>Apenas letras minúsculas e sem acento.</h6>
+                    </div>
+        
+                    <div class="container-btn">
+                        <button  onclick="handlerBtnEncriptarClick()" class="btn-encriptar">Criptografar</button>
+                        <button onclick="handlerBtnDescriptarClick()" class="btn-desencriptar">Descriptografar</button>
+                    </div>
+                </div>
+
+                <div class="container-mensagem">
+                    <textarea class="mensagem" cols="20" rows="10" ></textarea>
+               
+                    <div class="notification">
+                        <h2>Nenhuma mensagem encontrada</h2>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                    
+                    <button onclick="handlerBtnCopyonKeyDown()" class="btn-copy">Copiar</button>
+                </div>
+            </div>   
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

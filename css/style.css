@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+
+--cgd-bg-gray-light: #e5e5e5;
+--cgd-bg-gray-light-2: #D8DFE8;
+
+--cgd-font-blue: #0A3871;
+--cgd-font-gray-dark: #343A40;
+--cgd-font-gray: #495057;
+
+--cgd-font-white: #fff;
+
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif
+}
+
+html, body {
+    background-color: var(--cgd-bg-gray-light);
+}
+
+.logo-alura {
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+header {
+    padding: 0 40px;
+    width: 100%;
+}
+
+.grid-header {
+    width: 100%;
+}
+
+#grid-layout {
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.text-area {
+    border: none;
+    background-color: var(--cgd-bg-gray-light);
+    color: var(--cgd-font-blue);
+    margin-top: 90px;
+    width: 680px;
+    height: 635px;
+    font-size: 32px;
+    resize: none;
+}
+
+::placeholder {
+    color: var(--cgd-font-blue);
+    font-size: 32px;
+    
+} 
+
+.text-area:focus {
+    outline: none;
+}
+
+.container-mensagem {
+  margin: 50px 0; 
+}
+
+
+.mensagem {
+    background: var(--cgd-font-white);
+    background-image: url("../assets/imageBoneco.svg");
+    background-position:  top 220px center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: var(--cgd-font-gray);
+    margin-left: 98px;
+    margin-top: 20px;
+    padding: 32px 32px 130px 32px;
+    position: absolute;
+    width: 400px;
+    top: 30px;
+    height: 900px;
+    resize: none;
+    font-size: 24px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    
+}
+
+.notification {
+    position: absolute;
+    background-color: var(--cgd-font-white);
+    margin-top: 500px;
+    width: 100%;
+    max-width: 336px;
+    margin-left: 130px;
+    text-align: center;
+ }
+
+ .notification h2 {
+    font-size: 24px;
+    color: var(--cgd-font-gray-dark);
+    margin-bottom: 16px;
+ }
+
+ .notification p {
+    font-size: 16px;
+    color: var(--cgd-font-gray);
+ }
+
+.mensagem:focus {
+    outline: none;
+}
+
+.container-btn {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: var(--cgd-bg-gray-light-2);
+    border: 1px solid var(--cgd-font-blue);
+    border-radius: 24px;
+    color: var(--cgd-font-blue);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    font-size: 16px;
+}
+
+
+.btn-encriptar {
+    background: var(--cgd-font-blue);
+    border: 1px solid var(--cgd-font-blue);
+    border-radius: 24px;
+    color: var(--cgd-font-white);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 16px;
+}
+
+.btn-copy {
+    display: none;
+    background: var(--cgd-font-white);
+    border: 1px solid var(--cgd-font-blue);
+    border-radius: 24px;
+    color: var(--cgd-font-blue);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 130px;
+    margin-top: 710px;
+    position: absolute;
+    width: 336px;
+    font-size: 16px;
+}
+
+.info {
+    color: var(--cgd-font-gray);
+    font-size: 18px;
+    display: flex;
+}
+
+.info img {
+    margin-right: 5px;
+    display: block;
+}
